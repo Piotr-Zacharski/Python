@@ -1,1 +1,1 @@
-# Python - a very simple test results calculator for personal use.
+# Python - a very simple test results calculator for personal use 😁.
