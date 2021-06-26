@@ -4,19 +4,21 @@ result = int((score * 100) / max_score)
 
 def test_calc(result):
     print(f"Uzyskales:  {result}%")
+    print(f"Ocena {mark}")
 
 if result < 30:
-    print("Ocena niedostateczna (1)")
+    mark = "niedostateczna (1)"
 elif result < 50:
-    print("Ocena dopuszczajca (2)")
+    mark = "dopuszczajca (2)"
 elif result < 75:
-    print("Ocena dostateczna (3)")
+    mark =  "dostateczna (3)"
 elif result < 85:
-    print("Ocena dobra (4)")
+    mark =  "dobra (4)"
 elif result < 95:
-    print("Ocena bardzo dobra (5)")
+    mark =  "bardzo dobra (5)"
 elif result > 95:
-    print("Ocena celujaca (6)")
-    
+    mark =  "celujaca (6)"
+if result > 100:
+    print("Podaj poprawne dane!")
 
 test_calc(result)
